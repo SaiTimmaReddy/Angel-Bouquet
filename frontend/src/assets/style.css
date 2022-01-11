@@ -1,0 +1,3152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/*******************
+  COMMON
+  *******************/
+.background-image img {
+    width: 100%;
+    margin-top: 3%;
+    height: 54vh;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    position: absolute;
+    top: 5%;
+    color: #a6474d;
+    font-size: 10vh;
+    font-family: signpainter;
+    left: 4%;
+}
+button.btn1 {
+    background-color: #f06363;
+    width: 8vw;
+    height: 3vw;
+    float: right;
+    margin-top: -8%;
+    border: none;
+    border-radius: 7px;
+    margin-right: 7%;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px;
+    font-weight: bolder;
+    word-spacing: 8px;
+}
+.Add {
+    background-color: #f06363;
+    width: 8vw;
+    height: 3vw;
+    float: right;
+    margin-top: -8%;
+    border: none;
+    border-radius: 7px;
+    margin-right: 20%;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px;
+    font-weight: bolder;
+    word-spacing: 8px;
+}
+
+@media screen and (max-width: 450px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 10%;
+        height: 24vh;
+    }
+    button.btn1 {
+        background-color: #f06363;
+        width: 21vw;
+        height: 8vw;
+        float: right;
+        margin-top: -13%;
+        border: none;
+        border-radius: 4px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: large;
+        font-weight: bolder;
+        word-spacing: 8px;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    h1 {
+        position: absolute;
+        top: 6%;
+        color: #a6474d;
+        font-size: 5vh;
+        font-family: signpainter;
+        left: 5%;
+    }
+}
+/********************************
+  FLOWER 1
+  *********************************/
+img.imgflower {
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 5%;
+    border-radius: 4px;
+}
+h2.text1 {
+    margin-top: 1%;
+    font-family: roboto, 'Helvetica Neue';
+    font-size: 38px;
+    float: right;
+    margin-right: 50%;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+h5.text1 {
+    margin-top: -20%;
+    font-family: roboto, 'Helvetica Neue';
+    font-size: 38px;
+    float: right;
+    margin-right: 55%;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+h3.cost1 {
+    font-family: roboto, 'Helvetica Neue';
+    margin-right: 60%;
+    font-size: 4vh;
+    float: right;
+    margin-top: -8%;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+.cost1 {
+    font-family: roboto, 'Helvetica Neue';
+    margin-right: 63%;
+    font-size: 4vh;
+    float: right;
+    margin-top: -8%;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+@media screen and (max-width: 450px) {
+    img.imgflower1 {
+        width: 36%;
+        margin-top: 4%;
+    }
+    img.imgflower {
+        width: 22%;
+        margin-top: 0%;
+        margin-left: 5%;
+        border-radius: 4px;
+    }
+    .flower1 h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 19px;
+        float: right;
+        margin-right: 35%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 42%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -13%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 50%;
+        font-size: 20px;
+        float: right;
+        margin-top: -5%;
+        font-weight: 400;
+        color: #4a4a4a;
+        margin-top: -12%;
+    }
+    h5.text1 {
+        margin-top: -30%;
+        font-size: 26px;
+        margin-right: 15%;
+        font-weight: 700;
+        float: right;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+}
+
+.navbar .header-navbar {
+    background-color: blue;
+}
+.navbar .cartpic img.cartt {
+    width: 3%;
+    position: absolute;
+    top: 3%;
+    left: 86%;
+}
+.Cyber p {
+    left: 5%;
+    font-family: system-ui;
+    position: absolute;
+    font-size: 3vw;
+    top: 3%;
+    color: #f06363;
+    font-family: signpainter;
+}
+
+.sign p.sig a {
+    color: #e4e4e4;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    font-size: 3vh;
+    font-family: system-ui;
+    color: #f06363;
+    text-decoration: none;
+}
+.navbar .nav-footer {
+    position: absolute;
+    bottom: 100%;
+    background-color: #bcc0c7;
+    width: 60%;
+    padding: 0px 20%;
+    display: flex;
+}
+.nav-footer .foot {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    border-top: black;
+    position: fixed;
+    top: 91vh;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 80%);
+}
+
+.navbar .header {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    top: 0%;
+    height: 9%;
+}
+.footer .total h1 {
+    color: black;
+    font-family: system-ui;
+    font-size: 4vh;
+    position: absolute;
+    left: 56%;
+    top: 26%;
+    font-weight: 600;
+}
+/* .footer .total a .checkcart {
+    background-color
+} */
+@media screen and (max-width: 450px) {
+    .navbar .header-navbar {
+        background-color: blue;
+    }
+    .navbar .cartpic img.cartt {
+        width: 8%;
+        position: absolute;
+        top: 2%;
+        left: 84%;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: system-ui;
+        position: absolute;
+        font-size: 7vw;
+        top: 3%;
+        color: #f06363;
+        font-family: signpainter;
+    }
+
+    .sign p.sig a {
+        position: absolute;
+        left: 66%;
+        top: 3%;
+        font-size: 3vh;
+        font-family: system-ui;
+        color: #f06363;
+        text-decoration: none;
+    }
+    .navbar .nav-footer {
+        position: absolute;
+        bottom: 100%;
+        background-color: #bcc0c7;
+        width: 60%;
+        padding: 0px 20%;
+        display: flex;
+    }
+    .nav-footer .foot {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        border-top: #000;
+        position: fixed;
+        top: 83vh;
+        height: 24%;
+        box-shadow: 2px rgb(0 0 0/80%);
+    }
+    .navbar .header {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        top: 0%;
+        height: 9%;
+    }
+    .footer .total h1 {
+        color: #000;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 11%;
+        top: 12%;
+        font-weight: 600;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 6vh;
+        font-size: 5vw;
+        width: 41vw;
+        position: absolute;
+        right: 10%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    p {
+        position: absolute;
+        color: black;
+        font-size: 5vw;
+        left: 14%;
+        top: 99%;
+        font-weight: 100;
+        font-family: roboto, 'Helvetica Neue';
+    }
+}
+.orderitms {
+    width: 100%;
+    background-color: #f06363;
+    height: 23%;
+    position: absolute;
+    top: 7%;
+}
+
+.orderitms .dismsg {
+    color: #e4e4e4;
+    position: absolute;
+    top: 37%;
+    left: 29%;
+    font-size: 3vw;
+    font-family: roboto, 'Helvetica Neue';
+    font-weight: 500;
+}
+img.cartt {
+    position: absolute;
+    width: 3%;
+    top: 0%;
+    height: 5%;
+    left: 86%;
+}
+.thankyoumsg h2.thankmsg {
+    position: absolute;
+    color: #4e4e4e;
+    top: 41%;
+    left: 27%;
+    width: 51%;
+    font-family: roboto, 'Helvetica Neue';
+    font-weight: 300;
+}
+.homebtn {
+    position: absolute;
+    color: #e4e4e4;
+    top: 53%;
+    left: 39%;
+    width: 20%;
+    height: 12%;
+    background-color: #f06363;
+    font-size: 3vh;
+    border-radius: 5px;
+    border: none;
+}
+@media screen and (max-width: 900px) {
+    .orderitms .dismsg {
+        position: absolute;
+        color: #e4e4e4;
+        top: 47%;
+        left: 7%;
+        width: 92%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    img.cartt {
+        position: absolute;
+        width: 6%;
+        top: 0%;
+        height: 5%;
+        left: 84%;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 16%;
+        position: absolute;
+        top: 7%;
+    }
+    .thankyoumsg h2.thankmsg {
+        position: absolute;
+        color: #4e4e4e;
+        top: 29%;
+        left: 5%;
+        width: 92%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 300;
+        font-size: 5vw;
+    }
+    a .homebtn {
+        position: absolute;
+        color: #e4e4e4;
+        top: 44%;
+        left: 25%;
+        width: 45%;
+        height: 10%;
+        background-color: #f06363;
+        font-size: 3vh;
+        border-radius: 4px;
+        border: none;
+    }
+}
+.footer .total a .checkcart {
+    background-color: #f06363;
+    color: white;
+    height: 7vh;
+    font-size: 2vw;
+    width: 17vw;
+    position: absolute;
+    right: 6%;
+    /* top: 1 vh; */
+    top: 10%;
+    border-radius: 3px;
+    border: none;
+}
+
+/********************
+  LOGIN BOX
+  ********************/
+
+.login-box {
+    width: 27%;
+    margin: auto;
+    border-radius: 3px;
+    position: fixed;
+    top: 20%;
+    left: 34%;
+    background-color: white;
+    height: 45%;
+}
+
+form.loginnnn {
+    width: 81%;
+    margin-left: 20px;
+    margin-top: 26%;
+}
+input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #c7c2c2;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 17px;
+    font-size: 20px;
+}
+input[type='button'] {
+    width: 106%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f06363;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+}
+h1.signnnnn {
+    text-align: center;
+    padding-top: 15px;
+    color: #575757;
+    padding-top: 10%;
+    margin-left: 34%;
+    font-family: roboto, 'Helvetica Neue';
+    font-weight: bold;
+    font-size: 2vw;
+}
+p.signinp {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    word-spacing: 1px;
+    font-family: roboto, 'Helvetica Neue';
+    margin-top: 6%;
+    margin-left: -14%;
+    text-decoration: none;
+}
+p.cybe {
+    top: 2%;
+    font-size: 4vw;
+    position: absolute;
+    left: 23%;
+    font-family: signpainter;
+    color: #f06363;
+}
+p.shopp {
+    position: absolute;
+    top: 9%;
+    left: 44%;
+    font-size: 2vw;
+    margin-top: 0px;
+    font-family: system-ui;
+}
+h2.cancelbtn a {
+    color: #575757;
+    position: absolute;
+    left: 90%;
+    top: 3%;
+    font-family: system-ui;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+.Cyber p {
+    left: 5%;
+    font-family: signpainter;
+    position: absolute;
+    font-size: 3vw;
+    top: 0%;
+    color: #f06363;
+}
+p.shop {
+    color: #e4e4e4;
+    position: absolute;
+    left: 13%;
+    font-size: 2vw;
+    top: 4%;
+}
+@media screen and (max-width: 450px) {
+    .login-box {
+        width: 78%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 20%;
+        left: 10%;
+        background-color: white;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 6%;
+        margin-left: 31%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+
+    form {
+        width: 300px;
+        margin-left: 13%;
+        padding-top: 3%;
+    }
+    input {
+        width: 64%;
+        padding: 7px;
+        border: 1px solid #c7c2c2;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 17px;
+        font-size: 20px;
+    }
+    input[type='button'] {
+        width: 209px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: #f06363;
+        color: white;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    h5.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 18%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -8%;
+        margin-left: 4%;
+    }
+    p.cybe {
+        top: 0%;
+        font-size: 9vw;
+        position: absolute;
+        left: 23%;
+        font-family: signpainter;
+        color: #f06363;
+    }
+    p.shopp {
+        position: absolute;
+        top: 9%;
+        left: 44%;
+        font-size: 2vw;
+        margin-top: 0px;
+        font-family: system-ui;
+    }
+    h2.cancelbtn a {
+        color: #575757;
+        position: absolute;
+        left: 90%;
+        top: 3%;
+        font-family: system-ui;
+        text-decoration: none;
+    }
+    a {
+        color: black;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 8vw;
+        top: 0%;
+        color: #f06363;
+        margin-top: 2%;
+    }
+    p.shop {
+        color: #e4e4e4;
+        position: absolute;
+        left: 13%;
+        font-size: 2vw;
+        top: 4%;
+    }
+}
+.transparent {
+    background-color: white;
+    opacity: 0.3;
+}
+/*******************************
+*SIGN UP
+*******************************/
+.signup-box {
+    width: 31%;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    position: fixed;
+    left: 35%;
+    top: 25%;
+}
+
+.signup-box h1.signnn {
+    text-align: center;
+    padding-top: 15px;
+    color: #4a4a4a;
+    padding-top: 7%;
+    font-family: roboto, 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 3vw;
+    margin-left: 24%;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 84%;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 17px;
+    text-align: start;
+    font-size: 20px;
+    border: solid gray 1px;
+    color: #bfbfbf;
+}
+input[type='button'] {
+    width: 106%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f06363;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.signup-box input.placeholder {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+p.cybe {
+    top: 4%;
+    font-size: 3vw;
+    position: absolute;
+    left: 25%;
+    font-family: system-ui;
+    color: #f06363;
+    font-family: signpainter;
+}
+p.shopp {
+    position: absolute;
+    top: 8%;
+    left: 46%;
+    font-size: 2vw;
+    margin-top: 0px;
+    font-family: system-ui;
+}
+h2.cancelbtn {
+    color: #575757;
+    position: absolute;
+    left: 90%;
+    top: 3%;
+    font-family: roboto, 'Helvetica Neue';
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+    .signup-box {
+        width: 82%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 10%;
+        top: 24%;
+    }
+
+    .signup-box h1.signnn {
+        text-align: center;
+
+        padding-top: 12%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    form {
+        width: 50%;
+        margin-left: 55px;
+    }
+
+    form label {
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 7px;
+        border: 1 px solid rgb(156, 155, 155);
+        border-radius: 2px;
+        margin-top: 17px;
+        font-size: 18px;
+    }
+    input[type='button'] {
+        width: 110%;
+        height: 35px;
+        margin-top: 12px;
+        border: none;
+        background-color: #f06363;
+        color: white;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+
+    .para-2 {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .para-2 a {
+        color: #49c1a2;
+    }
+    .signup-box input.placeholder {
+        text-align: center;
+    }
+    a {
+        color: black;
+    }
+    p.cybe {
+        top: 2%;
+        font-size: 6vw;
+        position: absolute;
+        left: 15%;
+        font-family: signpainter;
+        color: #f06363;
+    }
+
+    h2.cancelbtn a {
+        color: #575757;
+        position: absolute;
+        left: 90%;
+        top: 3%;
+        font-family: roboto, 'Helvetica Neue';
+        text-decoration: none;
+    }
+}
+.Add .plus {
+    margin-left: 13%;
+    cursor: pointer;
+}
+.Add .count {
+    margin-left: 19%;
+    cursor: pointer;
+    font-size: 32px;
+}
+.Add .minus {
+    margin-left: 14%;
+    cursor: pointer;
+}
+.Add {
+    background-color: #f06363;
+    width: 8vw;
+    height: 3vw;
+    float: right;
+    margin-top: -8%;
+    border: none;
+    border-radius: 7px;
+    margin-right: 7%;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px;
+    font-weight: bolder;
+    word-spacing: 8px;
+}
+.sig {
+    position: absolute;
+    left: 79%;
+    top: 0%;
+    font-size: 3vh;
+    font-family: roboto, 'Helvetica Neue';
+    color: #f06363;
+    text-decoration: none;
+}
+.flower1 .flowerimage {
+    width: 20%;
+    margin-top: 1%;
+
+    margin-left: 5%;
+}
+.carttext h5.carttext {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .box p {
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        margin: 0 15%;
+        position: absolute;
+        top: 40px;
+    }
+    .flower1 .flowerimage {
+        width: 30%;
+        margin-top: 1%;
+
+        margin-left: 5%;
+    }
+    .sig {
+        position: absolute;
+        left: 63%;
+        top: 1%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+
+    .Add {
+        background-color: #f06363;
+        width: 20vw;
+        height: 9vw;
+        float: right;
+        margin-top: -14%;
+        border: none;
+        border-radius: 6px;
+        margin-right: 8%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -3px;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: #fff;
+        height: 5vh;
+        font-size: 4vw;
+        width: 39vw;
+        position: absolute;
+        right: 6%;
+        top: 10%;
+        border-radius: 3px;
+        border: none;
+    }
+}
+
+.details {
+    width: 78%;
+    margin: 22% 0;
+}
+.details .product-details {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+.details .box2 table {
+    margin: 0;
+    width: 100%;
+    color: #000000;
+    border-collapse: collapse;
+}
+.details .box2 .border {
+    border-top: 1px solid #a4c703;
+}
+
+.details h3 {
+    font-family: Roboto;
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.details h4 {
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    /* margin: 20px auto; */
+    margin-left: -56%;
+}
+
+.details p {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+}
+.details .product-details .box2 tr {
+    height: 2em;
+}
+
+.details .product-details .box2 .td-item {
+    width: 60%;
+}
+
+.details .product-details .box2 .td-quantity {
+    width: 10%;
+}
+
+.details .product-details .box2 .td-price {
+    width: 10%;
+}
+
+.details .product-details .box2 .border {
+    border-top: 2px solid #f06363;
+    font-weight: bold;
+    color: #313636;
+    white-space: nowrap;
+}
+.details .total p {
+    font-family: Roboto;
+    color: #a4c703;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.details .dispatch {
+    width: 55%;
+    margin: 0 15%;
+}
+
+.details .dispatch .form {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.details .dispatch .form input {
+    width: 150%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0 35px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #eaeaea;
+    text-align: start;
+}
+
+.details .submit {
+    background-color: #f06363;
+    color: #ffffff;
+    width: 140px;
+    border: none;
+    font-size: 25px;
+    font-family: Roboto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+@media screen and (max-width: 450px) {
+    .details {
+        width: 100%;
+        margin: 52% 0;
+    }
+    .details .dispatch .form input {
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0 35px;
+        font-size: 14px;
+        border: none;
+        background-color: #eaeaea;
+        text-align: center;
+    }
+    .details h4 {
+        font-family: Roboto;
+        color: black;
+        font-size: 14px;
+        font-weight: normal;
+        margin-left: -56%;
+        margin-left: -4%;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        margin-top: 5%;
+    }
+
+    .Add .count {
+        margin-left: 16%;
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
+p.orderitms {
+    color: #fff;
+    margin-left: -53px;
+    margin-top: 3%;
+    font-size: 6vh;
+    text-align: center;
+}
+
+@media screen and (width: 600px) and (height: 1024px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 12%;
+        height: 32vh;
+    }
+    button.btn1 {
+        background-color: #f06363;
+        width: 18vw;
+        height: 7vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 20%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    h1 {
+        position: absolute;
+        top: 10%;
+        color: #a6474d;
+        font-size: 5vh;
+        font-family: signpainter;
+        left: 5%;
+    }
+    img.imgflower {
+        width: 20%;
+        margin-top: 0%;
+        margin-left: 5%;
+        border-radius: 4px;
+    }
+    h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 49px;
+        float: right;
+        margin-right: 34%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    h5.text1 {
+        margin-top: -20%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 44px;
+        float: right;
+        margin-right: 35%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 54%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 51%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .flower1 .flowerimage {
+        width: 20%;
+        margin-top: 1%;
+
+        margin-left: 5%;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 18%;
+        position: absolute;
+        top: 7%;
+    }
+
+    .orderitms .dismsg {
+        color: #e4e4e4;
+        position: absolute;
+        top: 37%;
+        left: 8%;
+        font-size: 6vw;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+    }
+    img.cartt {
+        position: absolute;
+        width: 7%;
+        top: 0%;
+        height: 5%;
+        left: 83%;
+    }
+    .thankyoumsg h2.thankmsg {
+        position: absolute;
+        color: #4e4e4e;
+        top: 31%;
+        left: 8%;
+        width: 85%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 300;
+    }
+    .homebtn {
+        position: absolute;
+        color: #e4e4e4;
+        top: 53%;
+        left: 39%;
+        width: 20%;
+        height: 12%;
+        background-color: #f06363;
+        font-size: 3vh;
+        border-radius: 5px;
+        border: none;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 8vw;
+        top: 1%;
+        color: #f06363;
+    }
+    .sig {
+        position: absolute;
+        left: 65%;
+        top: 1%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    .details h3 {
+        font-family: Roboto;
+        color: black;
+        font-weight: bolder;
+        margin: 0px;
+        font-size: 34px;
+    }
+
+    .details h4 {
+        font-family: Roboto;
+        color: black;
+        font-size: 20px;
+        font-weight: normal;
+        /* margin: 20px auto; */
+        margin-left: -3%;
+    }
+    .details .dispatch {
+        width: 55%;
+        margin: 0 15%;
+    }
+    .Add .plus {
+        margin-left: 13%;
+        cursor: pointer;
+    }
+    .Add .count {
+        margin-left: 19%;
+        cursor: pointer;
+        font-size: 32px;
+    }
+    .Add .minus {
+        margin-left: 14%;
+        cursor: pointer;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 18vw;
+        height: 7vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 20%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 4vh;
+        font-size: 2vh;
+        width: 31vw;
+        position: absolute;
+        right: 17%;
+        top: 1vh;
+        border-radius: 3px;
+        border: none;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 18%;
+        top: 20%;
+        font-weight: 600;
+    }
+    .details {
+        width: 100%;
+        margin: 64% 0;
+    }
+    .details .dispatch .form input {
+        width: 110%;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0 35px;
+        font-size: 1.2em;
+        border: none;
+        background-color: #eaeaea;
+        text-align: center;
+        top: 62%;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        top: 62%;
+    }
+    .login-box {
+        width: 69%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 20%;
+        left: 16%;
+        background-color: white;
+        height: 35%;
+    }
+    input[type='button'] {
+        width: 105%;
+        height: 41px;
+        margin-top: 12px;
+        border: none;
+        background-color: #f06363;
+        color: white;
+        font-size: 22px;
+        border-radius: 2px;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 8%;
+        margin-left: 30%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .signup-box {
+        width: 78%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 8%;
+        height: 43%;
+        top: 3%;
+    }
+    p {
+        position: absolute;
+        color: #000000;
+        font-size: 5vw;
+        left: 11%;
+        top: 79%;
+        font-weight: 400;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    form {
+        width: 70%;
+        margin-left: 55px;
+        margin-top: 23%;
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 5%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 49px;
+        float: right;
+        margin-right: 40%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    h5.text1 {
+        margin-top: -20%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 44px;
+        float: right;
+        margin-right: 42%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .details {
+        width: 100%;
+        margin: 46% 0;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    p {
+        position: absolute;
+        color: #000000;
+        font-size: 4vw;
+        left: 11%;
+        top: 88%;
+        font-weight: 400;
+        font-family: roboto, 'Helvetica Neue';
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 7%;
+        top: 20%;
+        font-weight: 600;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 5vh;
+        font-size: 5vw;
+        width: 41vw;
+        position: absolute;
+        right: 10%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    p {
+        position: absolute;
+        color: black;
+        font-size: 5vw;
+        left: 14%;
+        top: 99%;
+        font-weight: 100;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 10%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+}
+@media screen and (min-width: 712px) and (max-width: 1138px) {
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 49%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+}
+@media screen and (min-width: 640px) and (max-height: 360px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 8%;
+        height: 63vh;
+    }
+    h1 {
+        position: absolute;
+        top: 16%;
+        color: #a6474d;
+        font-size: 12vh;
+        font-family: signpainter;
+        left: 5%;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 54%;
+        font-size: 7vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 5vh;
+        font-size: 3vw;
+        width: 31vw;
+        position: absolute;
+        right: 19%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 4vh;
+        position: absolute;
+        left: 32%;
+        top: 20%;
+        font-weight: 600;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 51%;
+        font-size: 8vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .sig {
+        position: absolute;
+        left: 61%;
+        top: 1%;
+        font-size: 8vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 6%;
+        top: 2%;
+        height: 8%;
+        left: 79%;
+    }
+    .details h3 {
+        font-family: Roboto;
+        color: black;
+        font-weight: bolder;
+        margin: 0px;
+        font-size: 22px;
+    }
+    .details {
+        width: 100%;
+        margin: 39% 0;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        top: 132%;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 33%;
+        position: absolute;
+        top: 7%;
+    }
+    .login-box {
+        width: 64%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 1%;
+        left: 16%;
+        background-color: white;
+        height: 99%;
+    }
+    .thankyoumsg h2.thankmsg {
+        position: absolute;
+        color: #4e4e4e;
+        top: 41%;
+        left: 8%;
+        width: 85%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 300;
+    }
+    a .homebtn {
+        position: absolute;
+        color: #e4e4e4;
+        top: 80%;
+        left: 36%;
+        width: 28%;
+        height: 10%;
+        background-color: #f06363;
+        font-size: 3vh;
+        border-radius: 4px;
+        border: none;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 26%;
+        position: absolute;
+        top: 16%;
+    }
+    .orderitms .dismsg {
+        color: #e4e4e4;
+        position: absolute;
+        top: 25%;
+        left: 8%;
+        font-size: 6vw;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+    }
+}
+
+@media only screen and (width: 280px) and (height: 653px) {
+    .flower1 .flowerimage {
+        width: 33%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    h5.text1 {
+        margin-top: -35%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 29px;
+        float: right;
+        margin-right: 15%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 39%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -16%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 22vw;
+        height: 10vw;
+        float: right;
+        margin-top: -12%;
+        border: none;
+        border-radius: 2px;
+        margin-right: 6%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -16px;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 5vh;
+        font-size: 4vw;
+        width: 42vw;
+        position: absolute;
+        right: 6%;
+        top: 10%;
+        border-radius: 3px;
+        border: none;
+    }
+    .Add .count {
+        margin-left: 15%;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 3%;
+        top: 20%;
+        font-weight: 600;
+    }
+    .sig {
+        position: absolute;
+        left: 62%;
+        top: 0%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 6%;
+        top: 0%;
+        height: 4%;
+        left: 86%;
+    }
+    .flower1 h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 22px;
+        float: right;
+        margin-right: 22%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    p {
+        position: absolute;
+        color: black;
+        font-size: 6vw;
+        left: 11%;
+        top: 100%;
+        font-weight: 400;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 11%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 17px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -25%;
+        margin-left: 4%;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 720px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 7%;
+        height: 54vh;
+    }
+    h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 38px;
+        float: right;
+        margin-right: 27%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 58%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -6%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .login-box {
+        width: 70%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 19%;
+        left: 18%;
+        background-color: white;
+        height: 45%;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: 51%;
+        margin-left: 10%;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 8%;
+        margin-left: 31%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    p {
+        position: absolute;
+        color: black;
+        font-size: 5vw;
+        left: 11%;
+        top: 100%;
+        font-weight: 400;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 5%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 16vw;
+        height: 6vw;
+        float: right;
+        margin-top: -7%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 20%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -4px;
+    }
+    button.btn1 {
+        background-color: #f06363;
+        width: 15vw;
+        height: 6vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 20%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    .footer {
+        width: 100%;
+        border-top: black;
+        position: fixed;
+        top: 97vh;
+        height: 4%;
+        background-color: white;
+        box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 80%);
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 2vh;
+        position: absolute;
+        left: 24%;
+        top: 9%;
+        font-weight: 600;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 3vh;
+        font-size: 4vw;
+        width: 32vw;
+        position: absolute;
+        right: 20%;
+        top: 1 vh;
+        top: 3%;
+        border-radius: 3px;
+        border: none;
+    }
+    h5.text1 {
+        margin-top: -22%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 47px;
+        float: right;
+        margin-right: 31%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 52%;
+        font-size: 4vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .details {
+        width: 78%;
+        margin: 22% 0;
+        margin-top: 45%;
+    }
+    .details h4 {
+        font-family: Roboto;
+        color: black;
+        font-size: 20px;
+        font-weight: normal;
+        /* margin: 20px auto; */
+        margin-left: -9%;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 6vw;
+        top: 1%;
+        color: #f06363;
+    }
+    .sig {
+        position: absolute;
+        left: 69%;
+        top: 1%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    .details .dispatch .form input {
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0 35px;
+        font-size: 1.2em;
+        border: none;
+        background-color: #eaeaea;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 6%;
+        height: 49vh;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 5vw;
+        top: 1%;
+        color: #f06363;
+    }
+    h1 {
+        position: absolute;
+        top: 10%;
+        color: #a6474d;
+        font-size: 10vh;
+        font-family: signpainter;
+        left: 5%;
+    }
+    .sig {
+        position: absolute;
+        left: 65%;
+        top: 1%;
+        font-size: 6vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 5%;
+        top: 1%;
+        height: 7%;
+        left: 79%;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 53%;
+        font-size: 6vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 14vw;
+        height: 6vw;
+        float: right;
+        margin-top: -9%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 20%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 4vh;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 52%;
+        font-size: 6vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .details {
+        width: 100%;
+        margin: 20% 0;
+        font-size: x-large;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+        position: absolute;
+        margin-top: 20%;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 18%;
+        position: absolute;
+        top: 10%;
+    }
+    p.orderitms {
+        color: white;
+        margin-left: -11%;
+        margin-top: 0%;
+        font-size: 10vh;
+    }
+
+    form.loginnnn {
+        width: 81%;
+        margin-left: 20px;
+        margin-top: 22%;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 4%;
+        margin-left: 18%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -1%;
+        margin-left: 5%;
+    }
+    .login-box {
+        width: 45%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 20%;
+        left: 28%;
+        background-color: white;
+        height: 57%;
+    }
+    .signup-box {
+        width: 51%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 23%;
+        height: 72%;
+        top: 10%;
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 5%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    p {
+        position: absolute;
+        color: #000000;
+        font-size: 3vw;
+        left: 11%;
+        top: 88%;
+        font-weight: 400;
+        font-family: roboto, 'Helvetica Neue';
+    }
+}
+.alredy {
+    margin-left: 18%;
+    font-size: 20px;
+    margin-top: 4%;
+    text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+    .alredy {
+        margin-left: 2%;
+        font-size: 20px;
+        margin-top: 4%;
+        text-decoration: none;
+    }
+    form {
+        width: 67%;
+        margin-left: 55px;
+    }
+    p.cybe {
+        top: 2%;
+        font-size: 7vw;
+        position: absolute;
+        left: 29%;
+        font-family: signpainter;
+        color: #f06363;
+    }
+}
+@media only screen and (width: 320px) and (height: 568px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 13%;
+        height: 40vh;
+    }
+    .sig {
+        position: absolute;
+        left: 51%;
+        top: 1%;
+        font-size: 4vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 7%;
+        top: 1%;
+        height: 5%;
+        left: 79%;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 8vw;
+        top: 1%;
+        color: #f06363;
+    }
+    h1 {
+        position: absolute;
+        top: 10%;
+        color: #a6474d;
+        font-size: 5vh;
+        font-family: signpainter;
+        left: 5%;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 47%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -12%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 5vh;
+        font-size: 3vw;
+        width: 27vw;
+        position: absolute;
+        right: 5%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 32%;
+        top: 20%;
+        font-weight: 600;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 47%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -12%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+}
+@media only screen and (width: 1024px) and (height: 1366px) {
+    .login-box {
+        width: 45%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 19%;
+        left: 24%;
+        background-color: white;
+        height: 30%;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 31px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -2%;
+        margin-left: 2%;
+    }
+    .background-image img {
+        width: 100%;
+        margin-top: 6%;
+        height: 54vh;
+    }
+    .signup-box {
+        width: 41%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 35%;
+        top: 25%;
+        height: 30%;
+    }
+    .alredy {
+        margin-left: 0%;
+        font-size: 27px;
+        margin-top: 0%;
+        text-decoration: none;
+    }
+    .sig {
+        position: absolute;
+        left: 72%;
+        top: 0%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 5vw;
+        top: 0%;
+        color: #f06363;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 11vw;
+        height: 4vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 49px;
+        float: right;
+        margin-right: 33%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 7vh;
+        font-size: 3vw;
+        width: 26vw;
+        position: absolute;
+        right: 6%;
+        top: 10%;
+        border-radius: 3px;
+        border: none;
+    }
+    button.btn1 {
+        background-color: #f06363;
+        width: 11vw;
+        height: 4vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 7px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 37%;
+        top: 26%;
+        font-weight: 600;
+    }
+    p.orderitms {
+        color: #fff;
+        margin-left: -115px;
+        margin-top: 2%;
+        font-size: 4vh;
+        text-align: center;
+    }
+    .orderitms {
+        width: 100%;
+        background-color: #f06363;
+        height: 19%;
+        position: absolute;
+        top: 7%;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        top: 51%;
+    }
+    .thankyoumsg h2.thankmsg {
+        position: absolute;
+        color: #4e4e4e;
+        top: 31%;
+        left: 19%;
+        width: 64%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .homebtn {
+        position: absolute;
+        color: #e4e4e4;
+        top: 47%;
+        left: 31%;
+        width: 33%;
+        height: 12%;
+        background-color: #f06363;
+        font-size: 3vh;
+        border-radius: 5px;
+        border: none;
+    }
+}
+@media only screen and (width: 717px) and (height: 512px) {
+    .footer {
+        width: 100%;
+        border-top: black;
+        position: fixed;
+        top: 96vh;
+        height: 6%;
+        background-color: white;
+        box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 80%);
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 4vh;
+        font-size: 2vw;
+        width: 21vw;
+        position: absolute;
+        right: 20%;
+        top: 1 vh;
+        top: 3%;
+        border-radius: 3px;
+        border: none;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 43%;
+        top: 9%;
+        font-weight: 600;
+    }
+    a .homebtn {
+        position: absolute;
+        color: #e4e4e4;
+        top: 61%;
+        left: 33%;
+        width: 29%;
+        height: 10%;
+        background-color: #f06363;
+        font-size: 3vh;
+        border-radius: 4px;
+        border: none;
+    }
+    .orderitms .dismsg {
+        position: absolute;
+        color: #e4e4e4;
+        top: 20%;
+        left: 7%;
+        width: 92%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    p.orderitms {
+        color: white;
+        margin-left: -11%;
+        margin-top: 0%;
+        font-size: 10vh;
+    }
+    .alredy {
+        margin-left: 1%;
+        font-size: 20px;
+        margin-top: 4%;
+        text-decoration: none;
+    }
+}
+@media only screen and (width: 540px) and (height: 720px) {
+    h5.text1 {
+        margin-top: -22%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 43px;
+        float: right;
+        margin-right: 18%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    p.orderitms {
+        color: #fff;
+        margin-left: -60px;
+        margin-top: 2%;
+        font-size: 4vh;
+        text-align: center;
+    }
+    .orderitms .dismsg {
+        position: absolute;
+        color: #e4e4e4;
+        top: 28%;
+        left: 7%;
+        width: 92%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -9%;
+        margin-left: 4%;
+    }
+    form {
+        width: 63%;
+        margin-left: 55px;
+    }
+    input[type='button'] {
+        width: 106%;
+        height: 35px;
+        margin-top: 12px;
+        border: none;
+        background-color: #f06363;
+        color: white;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    .alredy {
+        margin-left: 5%;
+        font-size: 23px;
+        margin-top: 4%;
+        text-decoration: none;
+    }
+}
+@media only screen and (width: 1024px) and (height: 1366px) {
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 56%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -9%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .orderitms .dismsg {
+        color: #e4e4e4;
+        position: absolute;
+        top: 37%;
+        left: 15%;
+        font-size: 5vw;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: 500;
+    }
+    img.cartt {
+        position: absolute;
+        width: 5%;
+        top: 0%;
+        height: 5%;
+        left: 86%;
+    }
+}
+@media only screen and (width: 768px) and (height: 1024px) {
+    .background-image img {
+        width: 100%;
+        margin-top: 6%;
+        height: 44vh;
+    }
+    h2.text1 {
+        margin-top: 1%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 44px;
+        float: right;
+        margin-right: 29%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    button.btn1 {
+        background-color: #f06363;
+        width: 12vw;
+        height: 6vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 4px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: 8px;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 6vh;
+        font-size: 5vw;
+        width: 41vw;
+        position: absolute;
+        right: 6%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 12vw;
+        height: 6vw;
+        float: right;
+        margin-top: -8%;
+        border: none;
+        border-radius: 4px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -1px;
+    }
+    h5.text1 {
+        margin-top: -20%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 38px;
+        float: right;
+        margin-right: 39%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 58%;
+        font-size: 3vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 4vh;
+        position: absolute;
+        left: 17%;
+        top: 20%;
+        font-weight: 600;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 10%;
+        margin-left: 34%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    .sig {
+        position: absolute;
+        left: 70%;
+        top: 0%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 5vw;
+        top: 0%;
+        color: #f06363;
+    }
+    img.cartt {
+        position: absolute;
+        width: 6%;
+        top: 0%;
+        height: 4%;
+        left: 84%;
+    }
+    p.orderitms {
+        color: #fff;
+        margin-left: -109px;
+        margin-top: 2%;
+        font-size: 4vh;
+        text-align: center;
+    }
+    .login-box {
+        width: 48%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 20%;
+        left: 25%;
+        background-color: white;
+        height: 33%;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 27px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -11%;
+        margin-left: 0%;
+    }
+    input[type='button'] {
+        width: 106%;
+        height: 35px;
+        margin-top: 12px;
+        border: none;
+        background-color: #f06363;
+        color: white;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    .signup-box {
+        width: 55%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 20%;
+        top: 24%;
+    }
+    .alredy {
+        margin-left: 3%;
+        font-size: 22px;
+        margin-top: 4%;
+        text-decoration: none;
+    }
+    form {
+        width: 72%;
+        margin-left: 60px;
+        margin-top: 27%;
+    }
+    p.cybe {
+        top: 2%;
+        font-size: 7vw;
+        position: absolute;
+        left: 21%;
+        font-family: signpainter;
+        color: #f06363;
+    }
+}
+@media only screen and (width: 375px) and (height: 812px) {
+    .Add {
+        background-color: #f06363;
+        width: 21vw;
+        height: 8vw;
+        float: right;
+        margin-top: -13%;
+        border: none;
+        border-radius: 2px;
+        margin-right: 7%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -3px;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 50%;
+        font-size: 2vh;
+        float: right;
+        margin-top: -5%;
+        font-weight: 400;
+        color: #4a4a4a;
+        margin-top: -12%;
+    }
+    .flower1 h2.text1 {
+        margin-top: 0%;
+        font-family: roboto, 'Helvetica Neue';
+        font-size: 19px;
+        float: right;
+        margin-right: 32%;
+        font-weight: bold;
+        color: #4a4a4a;
+    }
+    .sig {
+        position: absolute;
+        left: 60%;
+        top: 0%;
+        font-size: 3vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 7%;
+        top: 0%;
+        height: 4%;
+        left: 84%;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 5vh;
+        font-size: 5vw;
+        width: 41vw;
+        position: absolute;
+        right: 7%;
+        top: 1 vh;
+        top: 12%;
+        border-radius: 3px;
+        border: none;
+    }
+    p.orderitms {
+        color: #fff;
+        margin-left: -53px;
+        margin-top: 3%;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .details .dispatch .form {
+        font-size: 18px;
+        position: absolute;
+        /* top: 61%; */
+        margin-top: -34%;
+        font-family: Roboto;
+        color: #000;
+        font-weight: 400;
+    }
+}
+@media only screen and (width: 320px) and (height: 480px) {
+    .Add {
+        background-color: #f06363;
+        width: 20vw;
+        height: 9vw;
+        float: right;
+        margin-top: -14%;
+        border: none;
+        border-radius: 6px;
+        margin-right: 8%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -3px;
+    }
+    h3.cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 52%;
+        font-size: 4vh;
+        float: right;
+        margin-top: -8%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .Add .count {
+        margin-left: 13%;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    p.orderitms {
+        color: white;
+        margin-left: -12%;
+        margin-top: 5%;
+        font-size: 5vh;
+    }
+    .details {
+        width: 100%;
+        margin: 48% 0;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        margin-top: 5%;
+    }
+    .sig {
+        position: absolute;
+        left: 54%;
+        top: 1%;
+        font-size: 5vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+    }
+    img.cartt {
+        position: absolute;
+        width: 6%;
+        top: 1%;
+        height: 7%;
+        left: 79%;
+    }
+    .Cyber p {
+        left: 5%;
+        font-family: signpainter;
+        position: absolute;
+        font-size: 7vw;
+        top: 2%;
+        color: #f06363;
+    }
+    .cost1 {
+        font-family: roboto, 'Helvetica Neue';
+        margin-right: 44%;
+        font-size: 4vh;
+        float: right;
+        margin-top: -13%;
+        font-weight: 400;
+        color: #4a4a4a;
+    }
+    .background-image img {
+        width: 100%;
+        margin-top: 13%;
+        height: 49vh;
+    }
+    .footer .total a .checkcart {
+        background-color: #f06363;
+        color: white;
+        height: 6vh;
+        font-size: 3vw;
+        width: 37vw;
+        position: absolute;
+        right: 8%;
+        top: 7%;
+        border-radius: 3px;
+        border: none;
+    }
+    .footer .total h1 {
+        color: black;
+        font-family: system-ui;
+        font-size: 3vh;
+        position: absolute;
+        left: 21%;
+        top: 23%;
+        font-weight: 600;
+    }
+    .login-box {
+        width: 79%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        top: 20%;
+        left: 11%;
+        background-color: white;
+        height: 57%;
+    }
+    p.signinp {
+        text-align: center;
+        font-size: 19px;
+        color: black;
+        word-spacing: 1px;
+        font-family: roboto, 'Helvetica Neue';
+        margin-top: -1%;
+        margin-left: 5%;
+    }
+    h1.signnnnn {
+        text-align: center;
+        padding-top: 15px;
+        color: #575757;
+        padding-top: 4%;
+        margin-left: 31%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    p.cybe {
+        top: 2%;
+        font-size: 9vw;
+        position: absolute;
+        left: 21%;
+        font-family: signpainter;
+        color: #f06363;
+    }
+    .signup-box {
+        width: 73%;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+        position: fixed;
+        left: 13%;
+        height: 70%;
+        top: 14%;
+    }
+    form {
+        width: 72%;
+        margin-left: 28px;
+    }
+    .signup-box h1.signnn {
+        text-align: center;
+        padding-top: 15px;
+        padding-top: 2%;
+        font-family: roboto, 'Helvetica Neue';
+        font-weight: bold;
+        font-size: 6vw;
+    }
+    .alredy {
+        margin-left: 2%;
+        font-size: 16px;
+        margin-top: 4%;
+        text-decoration: none;
+    }
+}
+@media only screen and (width: 320px) and (height: 568px) {
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000000;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+
+        margin-top: 16%;
+    }
+    .details {
+        width: 100%;
+        margin: 59% 0;
+    }
+    .Add {
+        background-color: #f06363;
+        width: 20vw;
+        height: 9vw;
+        float: right;
+        margin-top: -14%;
+        border: none;
+        border-radius: 6px;
+        margin-right: 8%;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        font-size: 23px;
+        font-weight: bolder;
+        word-spacing: -3px;
+    }
+    .Add .count {
+        margin-left: 19%;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    p.orderitms {
+        color: white;
+        margin-left: -12%;
+        margin-top: 3%;
+        font-size: 6vh;
+    }
+}
+a.bou {
+    color: #f06363;
+}
+@media screen and (max-height: 550px) {
+    .login-box {
+        width: 94%;
+        top: 14%;
+        left: 4%;
+        height: 61%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        background-color: #fff;
+    }
+    p.signinp {
+        font-size: 21px;
+        color: #000;
+        word-spacing: 1px;
+        margin-top: 9%;
+        margin-left: 5%;
+        font-weight: 400;
+        text-align: center;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    p.cybe {
+        top: 2%;
+        font-size: 10vw;
+        position: absolute;
+        left: 20%;
+        font-weight: 400;
+        font-family: signpainter;
+        color: #f06363;
+    }
+    h1.signnnnn {
+        color: #575757;
+        padding-top: 4%;
+        margin-left: 28%;
+        font-weight: 700;
+        font-size: 7vw;
+        text-align: center;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    .background-image img {
+        width: 100%;
+        margin-top: 11%;
+        height: 49vh;
+    }
+    .sig {
+        left: 59%;
+        font-size: 4vh;
+        font-family: roboto, 'Helvetica Neue';
+        color: #f06363;
+        text-decoration: none;
+        position: absolute;
+        top: 2%;
+    }
+    img.cartt {
+        width: 9%;
+        height: 6%;
+        left: 76%;
+        position: absolute;
+        top: 1%;
+    }
+    .signup-box {
+        width: 97%;
+        left: 2%;
+        /* height: 72%; */
+        top: 10%;
+        margin: auto;
+        border-radius: 3px;
+        position: fixed;
+        background-color: #fff;
+    }
+    .alredy {
+        margin-left: 2%;
+        font-size: 20px;
+        margin-top: 11%;
+        text-decoration: none;
+    }
+    h1.signnn {
+        text-align: center;
+        padding-top: 3%;
+        font-weight: 700;
+        font-size: 6vw;
+        font-family: roboto, 'Helvetica Neue';
+    }
+    form {
+        width: 67%;
+        margin-left: 40px;
+        margin-top: 13%;
+    }
+    .details {
+        width: 100%;
+        margin: 44% 0;
+        font-size: x-large;
+    }
+    p.orderitms {
+        color: #fff;
+        margin-left: -11%;
+        margin-top: 0;
+        font-size: 8vh;
+    }
+    .details .dispatch .form {
+        font-family: Roboto;
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+        position: absolute;
+        padding-top: 9%;
+    }
+    .details .dispatch .form input {
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 1px 0 7px;
+        font-size: 14px;
+        border: none;
+        background-color: #eaeaea;
+        text-align: center;
+    }
+}
