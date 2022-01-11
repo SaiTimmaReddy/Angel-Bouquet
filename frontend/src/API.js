@@ -7,7 +7,7 @@ var baseURL;
 // } else {
 //     baseURL = 'http://127.0.0.1:8000';
 // }
-baseURL = 'https://backend-bebe.herokuapp.com/';
+baseURL = 'https://backend-angel-bouquet.herokuapp.com/';
 
 const api = axios.create({
     baseURL: baseURL,
